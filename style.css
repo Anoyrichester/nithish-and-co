@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('bg3.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  font-family: 'Muli', sans-serif;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+p {
+  margin: 5px 0;
+}
+
+label {
+  font-weight: bold;
+
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+input[type=checkbox] {
+  margin-right: 0;
+}
+
+.container {
+  color: #fff;
+  margin: 40px auto;
+  background-color: rgba(4, 4, 4, 0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 350px;
+  border-radius: 15px;
+  padding: 32px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.container:hover {
+  color: #fff;
+  margin: 40px auto;
+  background-color: rgba(148, 144, 144, 0.421);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 350px;
+  border-radius: 15px;
+  padding: 32px;
+  backdrop-filter: blur(20px);
+  box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+
+#length{
+  width: 40px;
+  padding: 3px;
+  border: 0px;
+  color: black;
+}
+
+
+.Name {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+
+.active{
+  animation: ShowCopyText 2s linear forwards;
+}
+
+@keyframes ShowCopyText{
+  0%{
+    opacity: 0;
+  }
+  10%{
+    opacity: 1;
+  }
+  90%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .result-container {
+    font-size: 14px;
+  }
+}
+.section1{
+	width:50%;
+	float:left;
+	height:100vh; 
+  box-sizing: border-box;
+  margin:0;
+  padding:0;	
+}
+.section2{
+	width:50%;
+	float:left;
+	height:100vh;
+	margin:0;
+	padding:0;
+  box-sizing: border-box;
+}
